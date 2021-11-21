@@ -1,0 +1,151 @@
+.sidenav{
+    width: 210px;
+    height: 100%;
+    position: fixed;
+    background: #2a3542;
+    z-index: 10;
+    margin-top: 100px;
+}
+
+li{
+    list-style: none;
+}
+
+.sidenaul{
+    padding: 0;
+}
+
+.sidenaul li{
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.sidenaul a{
+    display: inline-block;
+    width: 100%;
+    color: #aeb2b7;
+    text-decoration: none;
+    padding: 15px 0 15px 10px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+
+.sidenaul i{
+    padding-right: 8px;
+}
+
+a:hover,a:active{
+    outline: none;
+}
+
+
+
+.sidenaul li :hover, .sidenaul li:focus {
+    color: #fff;
+    background-color: #464f5a;
+    text-decoration: none;
+    outline: none;
+}
+
+.sidenaul li:hover i{
+    color: rgb(247, 52, 52);
+}
+
+.plus{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+.inside{
+    margin-left: 5px;
+    padding: 0;
+}
+
+.inside a{
+    padding: 5px;
+}
+
+.inside a:nth-child(1){
+    margin-top: 10px;
+}
+
+.none{
+    display: none;
+}
+
+
+.nav{
+    position: fixed;
+    background: #35404d;
+    border-bottom: 1px solid #35404d;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    height: 100px;
+    padding: 0 15px;
+}
+
+
+.logoa{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
+}
+
+.nav i{
+    font-size: 30px;
+    margin-right: 30px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.env{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+
+.userleft{
+    background-color: #fff;
+    position: absolute;
+    top: 90px;
+    height: 270px;
+    padding: 10px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 18%);
+    margin-left: 10px;
+    right: 20px;
+}
+
+.userleft i{
+    color: #2a3542;
+}
+
+.leftlog{
+    padding: 5px;
+    background-color: red;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.leftlog i{
+    color: #fff;
+}
+.leftlog p{
+    font-size: 16px;
+    margin: 0;
+}
+
+@media (max-width: 640px){
+    .nav img{
+        width: 60px;
+    }
+}

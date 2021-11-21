@@ -1,0 +1,69 @@
+.main{
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    margin-top: 15px;
+    justify-content: space-around;
+}
+
+.main > div{
+    display: flex;
+    flex-direction: row;
+    width: 22%;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 18%) ;
+}
+
+.icon{
+    width: 30%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.icon i{
+    font-size: 40px;
+    /* color: white; */
+}
+
+.iconbox{
+    padding-left: 10px;
+}
+
+.main2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.main2 > div{
+    width: 30%;
+    height: 300px;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 18%) ;
+    padding: 10px;
+}
+
+
+
+.conarea{
+    width: 100%;
+    margin-top: 7px;
+    height: 180px;
+    background-color: aquamarine;
+}
+
+
+@media (max-width: 640px){
+    .main, .main2{ 
+        flex-direction: column;
+        align-items: center;
+    }
+    .main > div, .main2 > div{
+        width: 90%;
+    }
+}

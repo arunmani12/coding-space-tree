@@ -1,0 +1,129 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* background-color: aqua; */
+    background: url('http://lotusfamily.in/images/cover4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+
+.login h1{
+    color: #ffffff;
+    text-align: center;
+    font-size: 5rem;
+    margin: 0;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 50px 0;
+}
+
+.logindiv{
+    background: rgba(0, 0, 0, 0.4);
+    max-width: 500px;
+    margin: 0 auto;
+    /* height: 95vh; */
+    margin-top: -10px;
+    padding: 3rem;
+}
+
+
+.pink{
+    text-align: center;
+    color: #fc3955;
+    font-size: 25px;
+    font-weight: 400
+}
+.textDiv{
+    width: 100%;
+    padding: 15px 5px;
+    background-color: #fff;
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: row;
+}
+
+.logindiv label{
+    display: block;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #d2d2d2;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    /* margin: 20px 0; */
+    font-style: italic;
+}
+
+.logindiv input{
+    width: 100%;
+    border: none;
+    background: transparent;
+    color: #000;
+    outline: none;
+}
+
+.textDiv i{
+    color: #fc3955;
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.forget{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.forget a{
+    color: #eee;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.logindiv button{
+    color: #ffffff;
+    font-size: 13px;
+    text-transform: uppercase;
+    background: #fc3955;
+    letter-spacing: 1px;
+    border: none;
+    padding: 12px 60px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.logindiv button:hover{
+    background-color: rgb(79, 196, 241);
+    transition: 3s;
+}
+
+
+
+
+@media (max-width: 640px){
+.login h1 {
+    font-size: 4rem;
+}
+}
+
+@media (max-width: 409px){
+    .login h1 {
+        font-size: 3.5rem;
+    }
+    }
+
+    @media (max-width: 361px){
+        .login h1 {
+            font-size: 3rem;
+        }
+        }
+
+    @media (max-width: 349px){
+        .login h1 {
+            font-size: 2.8rem;
+        }
+        }
